@@ -11,6 +11,8 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-LeaveManagement.Web-D0EC7CE7-EE94-476F-BE70-149B4C0B404D")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("LeaveManagement.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
